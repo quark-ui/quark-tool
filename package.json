@@ -1,0 +1,28 @@
+{
+  "name": "ehd-tool",
+  "version": "1.0.0",
+  "description": "devtool for ehd components",
+  "keywords": [
+    "react",
+    "tool",
+    "ehd"
+  ],
+  "bin": {
+    "ehd-tool": "./bin/ehd-tool.js",
+    "ehd-tool-run": "./bin/ehd-tool-run.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "pub": "git push origin && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehd-design/ehd-tool.git"
+  },
+  "author": "ryan.bian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ehd-design/ehd-tool/issues"
+  },
+  "homepage": "https://github.com/ehd-design/ehd-tool#readme"
+}
