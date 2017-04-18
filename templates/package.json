@@ -1,0 +1,34 @@
+{
+  "name": "<%= name %>",
+  "version": "0.1.0",
+  "description": "<%= description %>",
+  "repository": "https://github.com/quark-ui/<%= name %>.git",
+  "author": "<%= authorName %>",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "quark server",
+    "lint": "quark lint",
+    "pack": "quark pack",
+    "publish": "git push origin master & npm publish"
+  },
+  "bugs": {
+    "url": "http://github.com/quark-ui/<%= name %>/issues"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "<%= name %>",
+    "<%= ComponentName %>"
+  ],
+  "devDependencies": {
+    "es5-shim": "^4.5.8",
+    "react": "^15.5.0",
+    "react-dom": "^15.5.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "object-assign": "^4.1.0"
+  },
+  "contributors": [],
+  "license": "MIT"
+}

@@ -1,2 +1,2 @@
-# ehd-tool
-devtool for ehd components
+# quark-tool
+devtool for quark-ui components
